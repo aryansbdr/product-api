@@ -35,7 +35,7 @@ public class ProductControllerTest {
 
     @Test
     public void testGetAllProducts() throws Exception {
-        // Mempersiapkan data mock [cite: 755]
+        // Mempersiapkan data mock 
         ProductResponse product1 = new ProductResponse(1L, "Laptop", 15000000.0, 5);
         ProductResponse product2 = new ProductResponse(2L, "Mouse", 150000.0, 20);
         List<ProductResponse> products = Arrays.asList(product1, product2);
